@@ -10,10 +10,12 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Login = () => {
+  const navigate = useNavigate();
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Login logic would be implemented here
-    console.log('Login form submitted');
+    // Mock login - in a real app, this would validate credentials
+    navigate('/dashboard');
   };
 
   return (
