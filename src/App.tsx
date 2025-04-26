@@ -9,6 +9,9 @@ import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
+import FeaturesPage from "./pages/Features";
+import PricingPage from "./pages/Pricing";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
