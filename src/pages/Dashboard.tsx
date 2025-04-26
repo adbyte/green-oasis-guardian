@@ -1,10 +1,9 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Plant, Water, Sun, Calendar, Plus } from 'lucide-react';
+import { Flower, Droplets, Sun, Calendar, Plus } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
@@ -77,7 +76,7 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center">
-                  <Plant className="h-8 w-8 text-garden-green mr-4" />
+                  <Flower className="h-8 w-8 text-garden-green mr-4" />
                   <span className="text-3xl font-bold text-garden-brown-dark">{gardenSummary.totalPlants}</span>
                 </div>
               </CardContent>
@@ -89,7 +88,7 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center">
-                  <Water className="h-8 w-8 text-garden-green mr-4" />
+                  <Droplets className="h-8 w-8 text-garden-green mr-4" />
                   <span className="text-3xl font-bold text-garden-brown-dark">{gardenSummary.needsWatering}</span>
                 </div>
               </CardContent>
@@ -101,7 +100,7 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center">
-                  <Plant className="h-8 w-8 text-garden-green mr-4" />
+                  <Flower className="h-8 w-8 text-garden-green mr-4" />
                   <span className="text-3xl font-bold text-garden-brown-dark">{gardenSummary.needsFertilizer}</span>
                 </div>
               </CardContent>

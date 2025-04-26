@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Plant } from 'lucide-react';
+import { Flower } from 'lucide-react';
 
 const CTA = () => {
   return (
@@ -12,7 +12,7 @@ const CTA = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="p-8 lg:p-12">
               <div className="inline-flex items-center justify-center p-3 bg-white/20 rounded-lg mb-6">
-                <Plant className="h-8 w-8 text-white" />
+                <Flower className="h-8 w-8 text-white" />
               </div>
               <h2 className="text-3xl font-display font-bold text-white mb-4">
                 Ready to Transform Your Garden?

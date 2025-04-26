@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Plant, Calendar, Bell, Search, Settings, Flower } from 'lucide-react';
+import { Flower, Calendar, Bell, Search, Settings, Leaf } from 'lucide-react';
 
 interface FeatureProps {
   icon: React.ReactNode;
@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, description }: FeatureProps) => (
 const Features = () => {
   const features = [
     {
-      icon: <Plant className="h-6 w-6 text-garden-green" />,
+      icon: <Leaf className="h-6 w-6 text-garden-green" />,
       title: "Plant Tracking",
       description: "Keep detailed records of all your plants, including care history and growth progress."
     },

@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Plant, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Flower, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/" className="flex items-center">
-              <Plant className="h-8 w-8 text-white mr-2" />
+              <Flower className="h-8 w-8 text-white mr-2" />
               <span className="font-display text-xl font-semibold">GreenThumb</span>
             </Link>
             <p className="mt-4 text-sm text-gray-200">

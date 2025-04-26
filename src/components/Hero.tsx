@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Plant } from 'lucide-react';
+import { Leaf } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -39,7 +39,7 @@ const Hero = () => {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg flex items-center">
-              <Plant className="h-10 w-10 text-garden-green mr-3 animate-leaf-sway" />
+              <Leaf className="h-10 w-10 text-garden-green mr-3 animate-leaf-sway" />
               <div>
                 <p className="font-semibold text-garden-brown-dark">Smart Reminders</p>
                 <p className="text-sm text-garden-brown">Never miss a watering day</p>

@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
-import { Plant } from 'lucide-react';
+import { Flower } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -22,7 +22,7 @@ const Signup = () => {
       <div className="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-garden-green/5">
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
-            <Plant className="h-12 w-12 text-garden-green mx-auto" />
+            <Flower className="h-12 w-12 text-garden-green mx-auto" />
             <h2 className="mt-6 text-3xl font-display font-bold text-garden-brown-dark">
               Create your account
             </h2>

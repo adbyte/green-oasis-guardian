@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { Menu, X, User, Plant, Calendar, Bell } from 'lucide-react';
+import { Menu, X, User, Flower, Calendar, Bell } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +20,7 @@ const Navbar = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center">
-                <Plant className="h-8 w-8 text-garden-green mr-2" />
+                <Flower className="h-8 w-8 text-garden-green mr-2" />
                 <span className="font-display text-xl font-semibold text-garden-green">GreenThumb</span>
               </Link>
             </div>
